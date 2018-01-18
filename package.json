@@ -1,0 +1,29 @@
+{
+  "name": "Subscription_Generator",
+  "version": "1.0.0",
+  "description": "A sample demo application using Node.js to demonstrate how to subscribe to all extensions.",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "dibyendu.roy@ringcentral.com",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "preferGlobal": true,
+  "bin": {
+    "alliance": "index.js"
+  },
+  "homepage": "https://developer.ringcentral.com/api-docs/latest/index.html#!#Notifications.html",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mysql": "^2.15.0",
+    "ringcentral": "^3.1.1",
+    "socket.io": "^2.0.4"
+  }
+}
