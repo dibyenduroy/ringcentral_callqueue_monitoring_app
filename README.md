@@ -1,9 +1,9 @@
 ## Call Queue Monitoring App
 
-#This is a demo app to explore Monitoring of Call Queues using subscribtion to RingCentral Event Filter for Telephony Sessions
+This is a demo app to explore Monitoring of Call Queues using subscribtion to RingCentral Event Filter for Telephony Sessions
 
-#The Endpoint that is subscribed to is '/restapi/v1.0/account/~/telephony/sessions'. For the Demo App, I am using basic #password flow and App Type is Private. Please Create your App in RingCentral Accordingly. Also please remember to update
-#your .env file with your App specific credentials.
+The Endpoint that is subscribed to is '/restapi/v1.0/account/~/telephony/sessions'. For the Demo App, I am using basic password flow and App Type is Private. Please Create your App in RingCentral Accordingly. Also please remember to update
+your .env file with your App specific credentials.
 
  App Flow and Architechture
 
