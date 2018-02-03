@@ -1,0 +1,14 @@
+CREATE TABLE `rc_csn` (
+  `sessionId` varchar(45) DEFAULT NULL,
+  `eventTime` varchar(45) DEFAULT NULL,
+  `accountId` varchar(45) DEFAULT NULL,
+  `extensionId` varchar(45) DEFAULT NULL,
+  `id` varchar(45) DEFAULT NULL,
+  `to_phoneNumber` varchar(45) DEFAULT NULL,
+  `queue_name` varchar(45) DEFAULT NULL,
+  `from_phoneNumber` varchar(45) DEFAULT NULL,
+  `status` varchar(45) DEFAULT NULL,
+  `sequence` int(11) NOT NULL AUTO_INCREMENT,
+  `uuid` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`sequence`)
+) ENGINE=InnoDB AUTO_INCREMENT=172 DEFAULT CHARSET=latin1
